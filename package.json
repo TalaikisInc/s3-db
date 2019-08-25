@@ -1,8 +1,8 @@
 {
   "name": "@talaikis/s3-db",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "AWS S3 JSON table level database.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 100000 test/",
     "compile": "ncc build index.js -o dist"

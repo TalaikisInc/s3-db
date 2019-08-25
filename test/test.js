@@ -1,4 +1,4 @@
-import { init, read, create, update, destroy, list } from '../app'
+import { init, read, create, update, destroy, list } from '../index.js'
 require('chai').use(require('chai-as-promised')).should()
 const faker = require('faker')
 const awsexports = require('./aws-exports')
