@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"s3db1751aaf6": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"s318fa4900": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

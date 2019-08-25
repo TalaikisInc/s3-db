@@ -1,0 +1,19 @@
+{
+    "default": {
+        "awscloudformation": {
+            "AuthRoleName": "s3-db-default-20190825104023-authRole",
+            "UnauthRoleArn": "arn:aws:iam::210617604048:role/s3-db-default-20190825104023-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::210617604048:role/s3-db-default-20190825104023-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "s3-db-default-20190825104023-deployment",
+            "UnauthRoleName": "s3-db-default-20190825104023-unauthRole",
+            "StackName": "s3-db-default-20190825104023",
+            "StackId": "arn:aws:cloudformation:us-east-1:210617604048:stack/s3-db-default-20190825104023/9a911d80-c70b-11e9-b2e4-0afcd132dcac"
+        },
+        "categories": {
+            "auth": {
+                "s3db1751aaf6": {}
+            }
+        }
+    }
+}

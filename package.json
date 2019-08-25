@@ -1,0 +1,61 @@
+{
+  "name": "@talaikis/s3-db",
+  "version": "1.0.0",
+  "description": "AWS S3 JSON table level database.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --timeout 100000 test/",
+    "compile": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TalaikisInc/s3-db.git"
+  },
+  "keywords": [
+    "json",
+    "db",
+    "database",
+    "node",
+    "s3",
+    "aws",
+    "nodejs",
+    "storage"
+  ],
+  "author": "Tadas Talaikis <info@talaikis.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TalaikisInc/s3-db/issues"
+  },
+  "homepage": "https://talaikis.com",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@zeit/ncc": "^0.20.4",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "core-js": "^3.2.1",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "faker": "^4.1.0",
+    "husky": "^3.0.4",
+    "mocha": "^6.2.0",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test",
+      "pre-push": "npm run test && npm run compile"
+    }
+  },
+  "dependencies": {
+    "@aws-amplify/core": "^1.1.0",
+    "@aws-amplify/storage": "^1.1.0",
+    "aws-sdk": "^2.517.0",
+    "axios": "^0.19.0"
+  }
+}
