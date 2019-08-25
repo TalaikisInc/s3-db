@@ -1,6 +1,6 @@
 # AWS S3 JSON Database
 
-This is simple, fast, small (12.5 KB), no dependencies, local disk, table-level Node.js JSON database, which we often use in large development workloads.
+This is simple, AWS S3 table-level Node.js JSON database, which we often use in some projects if we want to save on "normal" database deployments.
 
 ## Preparation
 
