@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://talaikis.com/">
+    <img alt="Talaikis Ltd." src="https://github.com/TalaikisInc/talaikis.com_react/blob/master/media/logo.png" width="228">
+  </a>
+</p>
+
 # AWS S3 JSON Database
 
 This is simple, AWS S3 table-level Node.js JSON database, which we often use in some projects if we want to save on "normal" database deployments.
